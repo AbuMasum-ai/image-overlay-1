@@ -1,0 +1,255 @@
+/* =========================================================
+Template Name: Water Drop HTML 5 Template
+Template URI: https://asifjalil.xyz/water-drop
+Description: Water Drop HTML 5 Template
+Author: Asif Jalil
+Author URI: https://asifjalil.xyz
+Version: 1.0
+========================================================= */
+
+/* CSS Index
+-----------------------------------------------------
+01. Template Default CSS
+02. portfoilo css
+
+
+
+
+*/
+
+/* ======================================================
+Google Fonts
+====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500&family=Varela+Round&family=Montserrat:wght@500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* ...............................................
+01. Template Default CSS
+............................................... */
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sec-pad {
+  padding: 80px 0;
+}
+
+
+
+/* ==================================================
+Author's Custom Styles
+================================================== */
+
+/* ...............................................
+02. portfoilo css
+............................................... */
+
+.section-title {
+  padding: 10px 0 30px 0;
+}
+
+.section-title h3 {
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 38px;
+  color: #0C3E72;
+  padding: 15px 0;
+}
+
+.section-title p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #828282;
+}
+
+.work-item {
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+  z-index: 0;
+}
+
+.work-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(24, 27, 49, 0.6) 0%, transparent 60%, transparent 100%);
+  z-index: 1;
+}
+
+.work-item-overlay {
+  position: relative;
+}
+
+.work-item-overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: linear-gradient(to top, rgba(24, 27, 49, 1) 0%, transparent 100%);
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.work-item-overlay:hover:before {
+  opacity: 1;
+}
+
+.work-img {
+  transition: 0.4s;
+}
+
+.work-item:hover .work-img {
+  transform: scale(1.2);
+}
+
+.work-item-content {
+  color: #fff;
+  position: absolute;
+  padding: 0 25px 35px 30px;
+  z-index: 3;
+  transition: 0.4s;
+}
+
+.work-item-content span {
+  font-size: 11px;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: 0.6px;
+  padding: 5px;
+  background: #2493E0;
+  width: 60px;
+  display: block;
+  transform: translateY(100px);
+  transition: .55s;
+}
+
+.work-item:hover .work-item-content span {
+  transform: translateY(0px);
+  transition: .15s;
+
+}
+
+.work-item-content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 15px;
+  transform: translateY(100px);
+  transition: .30s;
+}
+
+.work-item:hover .work-item-content h4 {
+  transform: translateY(0px);
+  transition: .35s;
+}
+
+.work-item-overlay-content {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.15s;
+}
+
+.work-item:hover .work-item-overlay-content {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.work-item-overlay-content p {
+  line-height: 1.8;
+  padding: 5px 0 5px 0;
+  font-size: 15px;
+
+}
+
+.work-item-overlay-content a {
+  color: #FF7A4B;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+
+}
+
+.work-item-overlay-content i {
+  margin-left: 5px;
+
+}
+
+
+/* ...............................................
+03. Home CSS
+............................................... */
+
+
+
+
+
+
+
+
+/* ...............................................
+04. Header CSS
+............................................... */
+
+
+
+
+
+
+
+
+/* ...............................................
+05. Header CSS
+............................................... */
