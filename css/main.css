@@ -172,13 +172,12 @@ Author's Custom Styles
   width: 60px;
   display: block;
   transform: translateY(100px);
-  transition: .55s;
+  transition: 0.55s;
 }
 
 .work-item:hover .work-item-content span {
   transform: translateY(0px);
-  transition: .15s;
-
+  transition: 0.20s;
 }
 
 .work-item-content h4 {
@@ -186,12 +185,13 @@ Author's Custom Styles
   font-weight: 700;
   margin-top: 15px;
   transform: translateY(100px);
-  transition: .30s;
+  transition: 0.30s;
 }
 
 .work-item:hover .work-item-content h4 {
   transform: translateY(0px);
-  transition: .35s;
+  transition: 0.35s;
+  transition-delay: 0.04s;
 }
 
 .work-item-overlay-content {
@@ -203,7 +203,8 @@ Author's Custom Styles
 .work-item:hover .work-item-overlay-content {
   transform: translateY(0px);
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.40s;
+  transition-delay: 0.1s;
 }
 
 .work-item-overlay-content p {
@@ -227,29 +228,3 @@ Author's Custom Styles
 
 }
 
-
-/* ...............................................
-03. Home CSS
-............................................... */
-
-
-
-
-
-
-
-
-/* ...............................................
-04. Header CSS
-............................................... */
-
-
-
-
-
-
-
-
-/* ...............................................
-05. Header CSS
-............................................... */
